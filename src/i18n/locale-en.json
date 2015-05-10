@@ -1,0 +1,12 @@
+{
+    "LANDING_TITLE_WELCOME": "Find Your Health Plan Now",
+    "LANDING_FORM_ZIP": "Enter your zip code",
+    "LANDING_BUTTON_SEARCH": "Find Plans",
+
+    "SEARCH_RESULT_INSURER": "Offered by",
+    "SEARCH_RESULT_PLAN_NAME": "Plan name",
+    "SEARCH_RESULT_MONTHLY_COST": "Monthly cost",
+    "SEARCH_RESULT_DEDUCTIBLE": "Deductible",
+    "SEARCH_RESULT_GRADE": "Grade",
+    "SEARCH_RESULT_SERVICES_OFFERED": "Services Offered"
+}

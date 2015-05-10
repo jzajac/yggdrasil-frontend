@@ -1,0 +1,14 @@
+<h1>{{ 'LANDING_TITLE_WELCOME' | translate }}</h1>
+
+<div ng-repeat="result in vm.scope.searchResults track by $index">
+	<h2>{{ 'SEARCH_RESULT_PLAN_NAME' | translate}}: {{result.planName}}</h2>
+	<p>{{ 'SEARCH_RESULT_INSURER' | translate}}: {{result.insurer}}</p>
+	<p>{{ 'SEARCH_RESULT_MONTHLY_COST' | translate }}: {{result.monthlyCost}}</p>
+	<p>{{ 'SEARCH_RESULT_DEDUCTIBLE' | translate }}: {{result.deductible}}</p>
+	<p>{{ 'SEARCH_RESULT_GRADE' | translate}}: {{result.grade}}</p>
+
+	<h4>{{ 'SEARCH_RESULT_SERVICES_OFFERED' | translate }}:</h4>
+	<p ng-repeat="service in result.services track by $index">
+		{{service.name}} - {{service.copay}}
+	</p>
+</div>

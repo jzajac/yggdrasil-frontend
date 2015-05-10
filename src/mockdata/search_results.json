@@ -1,0 +1,44 @@
+[
+    {
+        "planName": "Sample Insurance Co. HMO 5500",
+        "insurer": "Sample Insurance Co.",
+        "monthlyCost": "130",
+        "deductible": "6600",
+        "services": [
+            {
+                "name": "doctor",
+                "copay": "40"
+            },
+            {
+                "name": "specialist",
+                "copay": "No charge after deductible"
+            },
+            {
+                "name": "generic rx",
+                "copay": "No charge after deductible"
+            }
+        ],
+        "grade": "Catastrophic"
+    },
+    {
+        "planName": "Sample Insurance Co. HMO 6600",
+        "insurer": "Sample Insurance Co.",
+        "monthlyCost": "190",
+        "deductible": "9000",
+        "services": [
+            {
+                "name": "doctor",
+                "copay": "20"
+            },
+            {
+                "name": "specialist",
+                "copay": "No charge after deductible"
+            },
+            {
+                "name": "generic rx",
+                "copay": "No charge after deductible"
+            }
+        ],
+        "grade": "Catastrophic"
+    }
+]
