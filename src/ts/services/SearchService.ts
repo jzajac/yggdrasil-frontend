@@ -20,7 +20,7 @@ module yggdrasil {
         search ( zipCode:string ) : ng.IPromise<Array<ISearchResult>> {
 
             var req : ng.IPromise<Array<ISearchResult>> = this.http
-                .get('mockdata/search_results.json')
+                .post('http://localhost:8080/search', null)
                 .then( (response) => {
                     return response.data;
                 });

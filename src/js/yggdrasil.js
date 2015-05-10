@@ -11,7 +11,7 @@ var yggdrasil;
             this.http = $http;
         }
         SearchService.prototype.search = function (zipCode) {
-            var req = this.http.get('mockdata/search_results.json').then(function (response) {
+            var req = this.http.post('http://localhost:8080/search', null).then(function (response) {
                 return response.data;
             });
             return req;
