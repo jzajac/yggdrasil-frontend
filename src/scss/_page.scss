@@ -1,0 +1,47 @@
+// Page styles
+// This file should be used to style page-level components
+
+// Search container
+.search {
+
+    // Insurance plan container
+    .plan {
+        border: 1px solid #999;
+
+        .header {
+            border-bottom: 1px solid #999;
+            padding: 0 15px;
+            position: relative;
+
+            h2 {
+                color: #222;
+                font-size: 18px;
+                margin: 5px;
+            }
+
+            h3 {
+                color: #666;
+                font-size: 16px;
+                margin: 5px;
+            }
+
+            .monthly-cost {
+                position: absolute;
+                right: 0;
+                top: 0;
+                margin: 0;
+
+                span {
+                    font-family: $header-font;
+                    font-size: 25px;
+                }
+            }
+        }
+
+        .body {
+            padding: 15px 20px;
+        }
+
+    }
+
+}

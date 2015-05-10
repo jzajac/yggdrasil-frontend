@@ -4,7 +4,32 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif; }
+  font-family: "Roboto", sans-serif; }
 
 body {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: "Open Sans", sans-serif; }
+
+.search .plan {
+  border: 1px solid #999; }
+  .search .plan .header {
+    border-bottom: 1px solid #999;
+    padding: 0 15px;
+    position: relative; }
+    .search .plan .header h2 {
+      color: #222;
+      font-size: 18px;
+      margin: 5px; }
+    .search .plan .header h3 {
+      color: #666;
+      font-size: 16px;
+      margin: 5px; }
+    .search .plan .header .monthly-cost {
+      position: absolute;
+      right: 0;
+      top: 0;
+      margin: 0; }
+      .search .plan .header .monthly-cost span {
+        font-family: "Roboto", sans-serif;
+        font-size: 25px; }
+  .search .plan .body {
+    padding: 15px 20px; }
