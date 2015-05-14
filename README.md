@@ -1,5 +1,16 @@
 # yggdrasil-frontend
 
+## About 
+Yggdrasil is an application which allows consumers to quote out healthcare plans, along the same lines as HealthSherpa. 
+
+It is not intended to be launched publicly - it's essentially just some code I threw together. 
+
+### The name 
+
+In Norse mythology, the Yggdrasil is a tree which holds the Nine worlds. Whether one dwells in Midgard or Asgard (or any of the other worlds) the Yggdrasil is a shared concept. Healthcare is like the Yggdrasil in that no matter who you are you need access to it. 
+
+(OK, so maybe this name is a bit contrived.)
+
 ## Installation
 
  * Ensure you have node.js installed and available in your PATH
